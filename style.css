@@ -1,0 +1,43 @@
+*{
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main{
+  border: 1px solid blue;
+  width: 350px;
+  height: 550px;
+}
+
+.hero-img{
+  border: 1px solid orange;
+}
+
+.hero-img img{
+  width: 80px;
+  border-radius: 50px;
+  margin-top: 35px;
+}
+
+.hero-img, .title, .sub-text, .description{
+  text-align: center;
+}
+
+.title{
+  border: 1px solid purple;
+}
+
+.sub-text{
+  border: 1px solid purple;
+}
+
+.description{
+  border: 1px solid purple;
+}
