@@ -9,16 +9,20 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: #141414;
 }
 
 main{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+  border-radius: 10px;
   width: 350px;
-  height: 550px;
+  height: auto;
+  padding-bottom: 10px;
+  background-color: #1f1f1f;
 }
 
 .hero-img{
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
 }
 
 .hero-img img{
@@ -32,15 +36,16 @@ main{
 }
 
 .title{
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 
 .title h2{
   margin: 10px 0 0 0;
+  color: #ffffff;
 }
 
 .sub-text{
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 
 .sub-text h4{
@@ -50,23 +55,26 @@ main{
 }
 
 .description{
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 
 .description h5{
   margin: 18px 0 12px 0;
+  color: #ffffff;
 }
 
 .btn-section{
-  border: 1px solid hotpink;
+  /* border: 1px solid hotpink; */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 250px; */
 }
 
 button{
-  border: 1px solid darkgreen;
+  /* border: 1px solid darkgreen; */
+  border: none;
+  background-color: #333333;
+  color: #ffffff;
   width: 80%;
   margin: 8px;
   font-size: 14px;
