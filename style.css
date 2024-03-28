@@ -12,6 +12,8 @@ body{
   background-color: #141414;
 }
 
+/*********************** TOP START *************************/
+
 main{
   /* border: 1px solid blue; */
   border-radius: 10px;
@@ -66,6 +68,10 @@ main{
   font-weight: 400;
 }
 
+/*********************** TOP END *************************/
+
+/*********************** MAIN START *************************/
+
 .btn-section{
   /* border: 1px solid hotpink; */
   display: flex;
@@ -103,3 +109,5 @@ button:focus{
   width: 80%;
   transition: ease 0.1s;
 }
+
+/*********************** MAIN END *************************/
