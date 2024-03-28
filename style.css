@@ -1,6 +1,7 @@
 *{
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
+  font-family: "Inter", sans-serif;
 }
 
 body{
@@ -34,10 +35,24 @@ main{
   border: 1px solid purple;
 }
 
+.title h2{
+  margin: 10px 0 0 0;
+}
+
 .sub-text{
   border: 1px solid purple;
 }
 
+.sub-text h4{
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  color: #c5f82a;
+}
+
 .description{
   border: 1px solid purple;
+}
+
+.description h5{
+  margin: 18px 0 12px 0;
 }
